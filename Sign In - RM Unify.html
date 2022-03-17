@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<!-- saved from url=(0378)https://sts.platform.rmunify.com/Account/SignIn/rmunify?ReturnUrl=%252fissue%252fwsfed%252frmunify%253fwa%253dwsignin1.0%2526wtrealm%253dhttp%25253a%25252f%25252flaunchpad.platform.rmunify.com%25252frp%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252f%2526wct%253d2022-03-10T13%25253a57%25253a43Z%2526wreply%253dhttps%25253a%25252f%25252frmunify.com%25252f -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Don't put anything above these two meta tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+        
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="RM Unify is your Launch Pad to the Cloud - a single sign-on system, application library and management console designed specifically for education.">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script type="text/javascript">
+        var commonErrorMessages = {
+            accessDeniedNotAuthorizedText: "",
+            appErrorGeneralMessage: ""
+        }
+    </script>
+            <title>Sign In - RM Unify</title>
+
+        <link rel="SHORTCUT ICON" href="https://rmunifylive01asset.blob.core.windows.net/signinpage/rmunify-v2/favicon2.ico">
+
+        <link rel="apple-touch-icon" href="https://rmunifylive01asset.blob.core.windows.net/signinpage/rmunify-v2/appleTouchIcon54x54Uri.png">
+
+        <link rel="apple-touch-icon" sizes="72x72" href="https://rmunifylive01asset.blob.core.windows.net/signinpage/rmunify-v2/appleTouchIcon72x72Uri.png">
+
+        <link rel="apple-touch-icon" sizes="114x114" href="https://rmunifylive01asset.blob.core.windows.net/signinpage/rmunify-v2/appleTouchIcon114x114Uri.png">
+
+        <link rel="apple-touch-icon" sizes="144x144" href="https://rmunifylive01asset.blob.core.windows.net/signinpage/rmunify-v2/appleTouchIcon144x144Uri.png">
+
+<link href="./Sign In - RM Unify_files/commonV3" rel="stylesheet">
+        <!--[if lt IE 9]>
+    <script src="/Scripts/IE8Support?v=k8ug4ekOS84DKr835DGzLfNs8uOlYJZu5VowWl1v_lE1"></script>
+
+    <![endif]-->
+    
+    
+    <link href="./Sign In - RM Unify_files/signInStylePath" rel="stylesheet">
+
+    <style>
+       body {
+                background:#047a7c !important;
+        }
+
+        @media(min-width: 700px) {
+             
+            body {
+
+                 background-color: #047a7c !important;
+                 background:url('https://rmunifylive01asset.blob.core.windows.net/signinpage/rmunify-v2/2021-12_winter.jpg') no-repeat center center fixed !important;
+                 background-color:#047a7c !important;
+                 -webkit-background-size: 100% !important;
+                 -moz-background-size: 100% !important;
+                 -o-background-size: 100% !important;
+                 background-size: 100% !important;
+                 -webkit-background-size: cover !important;
+                 -moz-background-size: cover !important;
+                 -o-background-size: cover !important;
+                 background-size: cover !important;
+            }
+        }
+
+        @media (max-width: 500px) {
+             body {
+                     background: #ffffff !important;
+             }
+
+               
+              .signin-wrapper {
+                        background-color:#047a7c;
+               }
+
+                
+               .bg-signInForm {
+                     box-shadow:none !important;
+                     -webkit-box-shadow:none;
+                     -moz-box-shadow:none;
+                }
+          }
+
+        .signInBox-text-warning {
+                color:#dc3545;
+        }
+
+        .bg-signInForm {
+                background:#ffffff;
+                            color:#000000;
+                            box-shadow:1px 2px 6px -1px rgba(50,50,50,0.5);
+                -webkit-box-shadow:1px 2px 6px -1px rgba(50,50,50,.5);
+                -moz-box-shadow:1px 2px 6px -1px rgba(50,50,50,.5);
+        }
+
+        
+        .btn-primary {
+                background:#047a7c !important;
+                border-color:#047a7c !important;
+                            color: #ffffff !important;
+        }
+
+        
+        .signintext-color {
+                color:#047a7c;
+
+        }
+
+        .btn-primary:not(:disabled):not(.disabled):active {
+                background-color:#000000 !important;
+                border-color:#000000 !important;
+        }
+        
+        .btn-signIn.btn-primary:hover, .btn-signIn.btn-primary:focus {
+                 background: #000000 !important;
+                                                     border-color: #000000 !important;
+                             color: #ffffff !important;
+            }
+
+        .bg-signInForm a {
+                color:#047a7c;
+        }
+
+        .bg-signInForm a:hover, .bg-signInForm a:focus {
+                color:#035F61;
+        }
+
+        .iconLinkServiceStatus{
+            background-image:url('https://rmunifylive01asset.blob.core.windows.net/signinpage/rmunify-v2/serviceStatusIcon_blue_60x60px.png');
+        }
+
+        .feed-title-link, .feed-title-link:link, .feed-title-link:hover, .feed-title-link:focus{
+            background: transparent;
+            padding-left:0px;
+            text-decoration:none;
+        }
+
+        .bg-signInForm {
+         }
+
+         .btn-dsso {
+                    color:#047a7c !important;
+                    border-color:#047a7c !important;
+         }
+
+        .btn.btn-dsso:hover {
+                     color: #047a7c !important;
+                     border-color: #047a7c !important;
+        }
+
+      
+         .signInFormPaddingLeft {
+                       padding-left:30px;
+        }
+    .signInFormPaddingRight {
+                       padding-right:30px;
+        }
+
+    </style>
+
+
+    
+</head>
+<body class="clearfix minimisedFooterBody nonAuthenticatedUserBody">
+    
+
+<!-- Accessibility links -->
+    <div data-bind="stopBinding: true">
+        <ul id="GlobalNavOnceColAccessibilityNavContainer" class="skip-link-container">
+            <li>
+                <a id="Jumptomaincontentlink" class="alert alert-info skip-link-style removeChromeOutline text-teal" href="https://sts.platform.rmunify.com/Account/SignIn/rmunify?ReturnUrl=%252fissue%252fwsfed%252frmunify%253fwa%253dwsignin1.0%2526wtrealm%253dhttp%25253a%25252f%25252flaunchpad.platform.rmunify.com%25252frp%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252f%2526wct%253d2022-03-10T13%25253a57%25253a43Z%2526wreply%253dhttps%25253a%25252f%25252frmunify.com%25252f#signinContainer" accesskey="1">
+                    Jump to main content
+                </a>
+            </li>
+            <li>
+                <a class="alert alert-info text-center skip-link-style removeChromeOutline text-teal" href="https://sts.platform.rmunify.com/Account/SignIn/rmunify?ReturnUrl=%252fissue%252fwsfed%252frmunify%253fwa%253dwsignin1.0%2526wtrealm%253dhttp%25253a%25252f%25252flaunchpad.platform.rmunify.com%25252frp%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252f%2526wct%253d2022-03-10T13%25253a57%25253a43Z%2526wreply%253dhttps%25253a%25252f%25252frmunify.com%25252f#GlobalFooter" accesskey="0">
+                    Jump to footer
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+<div id="MainContentInner" class="container" tabindex="-1">
+    
+
+    
+
+
+        <!-- bind logout urls present in .idsrvslo cookie -->
+
+    <!-- bind logout urls present in .idsrvslo cookie -->
+
+
+<div class="signin-wrapper">
+    <div class="row justify-content-center">
+        <div class="col-md-12  ">
+                <img src="./Sign In - RM Unify_files/pageTitleBrandLogo_249x73px.png" alt="Sign in page logo" class="title-brandLogo">
+
+        </div>
+
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 ">
+            <div class="bg-signInForm signInFormPaddingLeft signInFormPaddingRight paddingBottom30px paddingTop30px borderRadius4px">
+                <h1 class="marginTop0px marginBottom20px signintext-color ">Sign in</h1>
+                    <a href="https://status.rmunify.com/" target="_blank" class="iconLink iconLinkServiceStatus float-right d-none d-sm-none d-md-block" data-bind="popover: {trigger: &#39;hover focus&#39;, placement: &#39;left&#39;, content: &#39;Service Status&#39;, container: &#39;body&#39;, template:&#39;&lt;div class=\&#39;popover lp-left-sm-popover\&#39; role=\&#39;tooltip\&#39;&gt;&lt;div class=\&#39;arrow\&#39;&gt;&lt;/div&gt;&lt;div aria-hidden=\&#39;true\&#39; class=\&#39;popover-body\&#39;&gt;&lt;/div&gt;&lt;/div&gt;&#39;}" title="" style="margin-top:3px;" data-original-title="Service Status"><span class="sr-only">Service status</span></a>
+                <p></p>
+
+                <div role="alert" style="display:none" aria-live="assertive" data-bind="visible:signInError().length&gt;0" class="paddingTop5px">
+                    <div id="SignInErrorMessage" style="display: none;" aria-hidden="true" class="alert alert-danger padding10px" data-bind="html: signInError(), visible: signInError().length&gt;0,  attr: { &#39;aria-hidden&#39;: !signInError().length&gt;0}"></div>
+
+                    
+                </div>
+
+                <form action="https://sts.platform.rmunify.com/Account/SignIn/rmunify?returnUrl=%252fissue%252fwsfed%252frmunify%253fwa%253dwsignin1.0%2526wtrealm%253dhttp%25253a%25252f%25252flaunchpad.platform.rmunify.com%25252frp%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252f%2526wct%253d2022-03-10T13%25253a57%25253a43Z%2526wreply%253dhttps%25253a%25252f%25252frmunify.com%25252f" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="RM0Aiu_GmQwzpcgtiumB4iFITk5GSFz7bnW7VTvU9AO3BGvDicLvj1hcLOWt61qLNryZmVbSwAnRHvbJvt7qZHA65gM1">                    <div id="signinContainer" data-bind="event: { keypress: function(data,e){ if(e.keyCode == 13){ EnterKey(); } else {return true;}} }">
+                        <div class="form-group paddingTop5px" data-bind="visible: !usernameScopeEntered(), attr: { &#39;aria-hidden&#39;: usernameScopeEntered() }" id="divUerNameTextBox">
+                            <label for="usernameTxt"><span>Username or Email Address </span><span aria-label="Required" class="font-weight-normal">(required)</span><span class="sr-only" data-bind="text: scopeText()">@rmunify</span></label>
+                            <div class="input-group">
+                                <input aria-required="true" autocomplete="on" class="form-control" data-bind="value: username, valueUpdate:[&#39;afterkeydown&#39;, &#39;input&#39;], switchFocus: !usernameScopeEntered(), ifElementHasFocusId: &#39;username2Txt&#39;" data-val="true" data-val-required="The Username field is required." id="usernameTxt" name="UserName" placeholder="Enter the username or email address" type="text" value="">
+                                <div class="input-group-append"><span class="input-group-addon input-group-text scopeSetMaxWidth paddingLeft5px paddingRight5px" aria-hidden="true" style="" data-bind="visible: [!usernameScopeEntered()|| setScope()], popover: {trigger: &#39;hover&#39;, placement: &#39;top&#39;, content: scopeText(), container: &#39;body&#39;}" data-original-title="" title=""><span data-bind="text: scopeText()" class="scopeSetMaxWidth">@rmunify</span></span></div>
+                            </div>
+                            <p data-bind="text: signInUsernameValidationError(), visible: signInUsernameValidationError().length&gt;0, attr:{&#39;aria-hidden&#39;: !signInUsernameValidationError().length&gt;0}" aria-hidden="true" class="margin0px marginTop5px signInBox-text-warning" role="alert" aria-live="polite" style="display: none;"></p>
+                        </div>
+                        <div class="form-group" style="display: none;" data-bind="visible: usernameScopeEntered(), attr: { &#39;aria-hidden&#39;: !usernameScopeEntered() }" id="divUerName2TextBox" aria-hidden="true">
+                            <label for="username2Txt"><span>Username or Email Address </span><span aria-label="Required" class="font-weight-normal">(required)</span></label>
+                            <input data-bind="value: username, valueUpdate:[&#39;afterkeydown&#39;, &#39;input&#39;], switchFocus: usernameScopeEntered(), ifElementHasFocusId: &#39;usernameTxt&#39;" class="form-control input-lg" id="username2Txt" type="text" placeholder="Enter the username or email address" autocomplete="on" aria-required="true" name="username2TxtGloLgn">
+                            <p data-bind="text: signInUsernameValidationError(), visible: signInUsernameValidationError().length&gt;0, attr:{&#39;aria-hidden&#39;: !signInUsernameValidationError().length&gt;0}" aria-hidden="true" class="margin0px marginTop5px signInBox-text-warning" role="alert" aria-live="polite" style="display: none;"></p>
+                        </div>
+
+                        <div class="form-group marginBottom8px">
+                            <label for="passwordTxt"><span>Password</span><span aria-label="Required" class="font-weight-normal">&nbsp;(required)</span></label>
+
+                            <div class="input-group input-with-icon">
+                                <input data-bind="value: password, valueUpdate: [&#39;afterkeydown&#39;, &#39;input&#39;,&#39;blur&#39;], attr: {&#39;type&#39;: showPassword()? &#39;text&#39; : &#39;password&#39;, &#39;autocomplete&#39;: showPassword()? &#39;off&#39; : &#39;current-password&#39;  }" class="form-control" id="passwordTxt" type="password" placeholder="Enter the password" aria-required="true" name="password" autocomplete="current-password">
+                                <div class="input-group-append" data-bind="popover: {trigger: &#39;hover&#39;, placement: &#39;top&#39;, content: &#39;Show my password&#39;, container: &#39;body&#39;}" style="color: #000" data-original-title="" title="">
+                                    <div id="divEyeOpen" data-bind="visible: !showPassword(), attr: { &#39;aria-hidden&#39;: showPassword() }">
+                                        <button class="btn minWidthNone" data-bind="click: function() {showPassword(true); }, setFocus: !showPassword(), elementToSetFocus: &#39;passwordTxt&#39;, event: { keypress: function(data,e){ if(e.keyCode == 13){ event.stopPropagation(); return true;} else {return true;}} }" aria-label="Show my password">
+                                            <span class="glyphicon glyphicon-eye-open font-weight-bold"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="input-group-append" data-bind="popover: {trigger: &#39;hover&#39;, placement: &#39;top&#39;, content: &#39;Hide my password&#39;, container: &#39;body&#39;}" style="color: #000" data-original-title="" title="">
+                                    <div id="divEyeClose" style="display: none" aria-hidden="true" data-bind="visible: showPassword(), attr: { &#39;aria-hidden&#39;: !showPassword() }">
+                                        <button class="btn minWidthNone" type="button" data-bind="click: function() {showPassword(false); }, setFocus: showPassword(), elementToSetFocus: &#39;passwordTxt&#39;, event: { keypress: function(data,e){ if(e.keyCode == 13){ event.stopPropagation(); return true;} else {return true;}} }" aria-label="Hide my password">
+                                            <span class="glyphicon glyphicon-eye-close font-weight-bold"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p data-bind="text: signInPasswordValidationError(), visible: signInPasswordValidationError().length&gt;0, attr:{&#39;aria-hidden&#39;: !signInPasswordValidationError().length&gt;0}" aria-hidden="true" class="margin0px marginTop5px signInBox-text-warning" role="alert" aria-live="polite" style="display: none;"></p>
+                            <p style="display: none" data-bind="visible: showPassword(), attr:{&#39;aria-hidden&#39;: !showPassword()}" aria-hidden="true" class="alert alert-warning marginTop10px" role="alert" aria-live="polite">
+                                <span aria-hidden="true"> <b>Warning</b>: show my password is enabled</span>
+                                <span class="sr-only">Warning : Show my password is enabled</span>
+                            </p>
+                        </div>
+                            <div class="password-reset-link-wrap"><a href="https://sts.platform.rmunify.com/Account/ForgotPassword/Reset" class="link-passwordReset">I have forgotten my password</a></div>
+                    </div>
+                    <div class="row marginTop30px">
+                        <div class="col-lg-7 col-md-7 col-sm-6">
+                            <div class="custom-checkbox">
+                                <input id="RememberMeChk" type="checkbox" name="RememberMe" data-bind="checked: usernameSaved()" value="true">
+                                <label for="RememberMeChk" class="marginBottom0px">
+                                    Remember me
+                                    <span class="sr-only">Warning: (Do not select on shared devices)</span>
+                                </label>
+                                <div aria-hidden="true" class="rememberMeAdviceDiv">
+                                    <span class="rememberMeAdvice">(Do not select on shared devices)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                     
+
+
+                    </div>
+                    <div class="marginBottom20px signin-btn-marginTop">
+                        <input data-bind="click: function() { return signIn(); }" id="Submit" value="Sign in" class="btn btn-primary btn-lg btn-block btn-signIn" type="submit">
+                    </div>
+<input id="returnUrl" name="returnUrl" type="hidden" value="%2fissue%2fwsfed%2frmunify%3fwa%3dwsignin1.0%26wtrealm%3dhttp%253a%252f%252flaunchpad.platform.rmunify.com%252frp%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2022-03-10T13%253a57%253a43Z%26wreply%3dhttps%253a%252f%252frmunify.com%252f"></form>                <div class="marginTop15px marginBottom15px text-center"></div>
+                <div class="text-center">
+                        <a href="https://rm.com/rmunify" class="link-passwordReset" target="_blank"> Find out about RM Unify</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-6 hidden-xs " data-bind="stopBinding: true">
+            <div class="card feedContainer" id="newsFeedDiv">
+                <div class="card-body">
+                    <div class="panel-heading">
+                        <h2 class="h2 feed-title-header feed-title-link paddingLeft0px marginBottom15px">@RMEducation Tweets</h2>
+                    </div>
+                    <div class="list-group feed-container">
+                        <!-- ko if: twitterFeedObservableArray().length>0 -->
+                        <section data-bind="template: { name: &#39;twitternewsfeed-template&#39;, foreach: twitterFeedObservableArray()}">
+    <article class="list-group-item clearfix">
+        <div class="col-feedItemAvatar">
+            <img class="img-feeadItemAvatar" data-bind="attr: { src: $data.profileImageUrl, alt: &#39;Tweet&#39; + ($index() + 1) +&#39;, &#39; + $data.name }" alt="Tweet1, RM Education" src="data:image/jpeg;base64,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">
+        </div>
+        <div class="col-feedItemBodyOuter">
+            <div class="col-feedItemBodyInner">
+                <header class="marginBottom10px">
+                    <a target="_blank" class="feed-link-user" data-bind="attr : {href: $data.feedUrl, title: $data.name}, html:$data.postedUser" href="https://twitter.com/RMEducation" title="RM Education"><strong>RM Education</strong> @RMEducation</a>
+                    <span class="time">&nbsp;<span data-bind="text: $data.postedAt">10 Mar, 01:54 pm</span></span>
+                </header>
+                <p data-bind="html: $data.feedText" class="linksUnderlined margin0px">Our technology seamlessly safeguards devices brought into school when they’re connected to the school internet, and… <a target="_blank" aria-label="https://t.co/VRNKQZp1yq" href="https://t.co/VRNKQZp1yq">https://t.co/VRNKQZp1yq</a></p>
+                <footer class="paddingTop5px ">
+                    
+                    <div class="float-left linksUnderlined">
+                        <a target="_blank" data-bind="attr : {href: $data.expandUrl, &#39;aria-label&#39;:&#39;Go to tweet &#39; + ($index() + 1) +&#39; from &#39; + $data.name}" class="small linksUnderlined" href="https://twitter.com/RMEducation/status/1501919304484368392" aria-label="Go to tweet 1 from RM Education">Expand</a>
+                    </div>
+                    <div class="float-right tweet-actions">
+                        <a target="_blank" data-bind="attr : {href: $data.replyToUrl, &#39;aria-label&#39;:&#39;Reply to tweet &#39; + ($index() + 1) +&#39; from &#39; + $data.name}" class="padding5px feed-link-textStyle" aria-label="Reply to tweet 1 from RM Education" href="https://twitter.com/intent/tweet?in_reply_to=1501919304484368392">
+                            <span class="glyphicon glyphicon-share-alt icon-flipped" data-bind="popover: {trigger: &#39;hover&#39;, placement: &#39;top&#39;, content: &#39;Reply&#39;, container: &#39;body&#39;}" data-original-title="" title=""></span>
+                        </a>
+                        <a target="_blank" data-bind="attr : {href: $data.rePostUrl, &#39;aria-label&#39;:&#39;Retweet tweet &#39; + ($index() + 1) +&#39; from &#39; + $data.name}" class="padding5px feed-link-textStyle" aria-label="Retweet tweet 1 from RM Education" href="https://twitter.com/intent/retweet?tweet_id=1501919304484368392">
+                            <span class="glyphicon glyphicon-retweet" data-bind="popover: {trigger: &#39;hover&#39;, placement: &#39;top&#39;, content: &#39;Retweet&#39;, container: &#39;body&#39;}" data-original-title="" title=""></span>
+                        </a>
+                        <a target="_blank" data-bind="attr : {href: $data.favouriteUrl, &#39;aria-label&#39;:&#39;Favourite tweet &#39; + ($index() + 1) +&#39; from &#39; + $data.name}" class="padding5px feed-link-textStyle" aria-label="Favourite tweet 1 from RM Education" href="https://twitter.com/intent/favorite?tweet_id=1501919304484368392">
+                            <span class="glyphicon glyphicon-star" data-bind="popover: {trigger: &#39;hover&#39;, placement: &#39;top&#39;, content: &#39;Favourite&#39;, container: &#39;body&#39;}" data-original-title="" title=""></span>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </article>
+
+    <article class="list-group-item clearfix">
+        <div class="col-feedItemAvatar">
+            <img class="img-feeadItemAvatar" data-bind="attr: { src: $data.profileImageUrl, alt: &#39;Tweet&#39; + ($index() + 1) +&#39;, &#39; + $data.name }" alt="Tweet2, RM Education" src="data:image/jpeg;base64,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">
+        </div>
+        <div class="col-feedItemBodyOuter">
+            <div class="col-feedItemBodyInner">
+                <header class="marginBottom10px">
+                    <a target="_blank" class="feed-link-user" data-bind="attr : {href: $data.feedUrl, title: $data.name}, html:$data.postedUser" href="https://twitter.com/RMEducation" title="RM Education"><strong>RM Education</strong> @RMEducation</a>
+                    <span class="time">&nbsp;<span data-bind="text: $data.postedAt">9 Mar, 03:55 pm</span></span>
+                </header>
+                <p data-bind="html: $data.feedText" class="linksUnderlined margin0px">Looking to boost performance across your school? RM Integris's user-friendly reporting provides clear visualisation… <a target="_blank" aria-label="https://t.co/ZnGaq8n7vK" href="https://t.co/ZnGaq8n7vK">https://t.co/ZnGaq8n7vK</a></p>
+                <footer class="paddingTop5px ">
+                    
+                    <div class="float-left linksUnderlined">
+                        <a target="_blank" data-bind="attr : {href: $data.expandUrl, &#39;aria-label&#39;:&#39;Go to tweet &#39; + ($index() + 1) +&#39; from &#39; + $data.name}" class="small linksUnderlined" href="https://twitter.com/RMEducation/status/1501587377336340491" aria-label="Go to tweet 2 from RM Education">Expand</a>
+                    </div>
+                    <div class="float-right tweet-actions">
+                        <a target="_blank" data-bind="attr : {href: $data.replyToUrl, &#39;aria-label&#39;:&#39;Reply to tweet &#39; + ($index() + 1) +&#39; from &#39; + $data.name}" class="padding5px feed-link-textStyle" aria-label="Reply to tweet 2 from RM Education" href="https://twitter.com/intent/tweet?in_reply_to=1501587377336340491">
+                            <span class="glyphicon glyphicon-share-alt icon-flipped" data-bind="popover: {trigger: &#39;hover&#39;, placement: &#39;top&#39;, content: &#39;Reply&#39;, container: &#39;body&#39;}" data-original-title="" title=""></span>
+                        </a>
+                        <a target="_blank" data-bind="attr : {href: $data.rePostUrl, &#39;aria-label&#39;:&#39;Retweet tweet &#39; + ($index() + 1) +&#39; from &#39; + $data.name}" class="padding5px feed-link-textStyle" aria-label="Retweet tweet 2 from RM Education" href="https://twitter.com/intent/retweet?tweet_id=1501587377336340491">
+                            <span class="glyphicon glyphicon-retweet" data-bind="popover: {trigger: &#39;hover&#39;, placement: &#39;top&#39;, content: &#39;Retweet&#39;, container: &#39;body&#39;}" data-original-title="" title=""></span>
+                        </a>
+                        <a target="_blank" data-bind="attr : {href: $data.favouriteUrl, &#39;aria-label&#39;:&#39;Favourite tweet &#39; + ($index() + 1) +&#39; from &#39; + $data.name}" class="padding5px feed-link-textStyle" aria-label="Favourite tweet 2 from RM Education" href="https://twitter.com/intent/favorite?tweet_id=1501587377336340491">
+                            <span class="glyphicon glyphicon-star" data-bind="popover: {trigger: &#39;hover&#39;, placement: &#39;top&#39;, content: &#39;Favourite&#39;, container: &#39;body&#39;}" data-original-title="" title=""></span>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </article>
+
+    <article class="list-group-item clearfix">
+        <div class="col-feedItemAvatar">
+            <img class="img-feeadItemAvatar" data-bind="attr: { src: $data.profileImageUrl, alt: &#39;Tweet&#39; + ($index() + 1) +&#39;, &#39; + $data.name }" alt="Tweet3, RM Education" src="data:image/jpeg;base64,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">
+        </div>
+        <div class="col-feedItemBodyOuter">
+            <div class="col-feedItemBodyInner">
+                <header class="marginBottom10px">
+                    <a target="_blank" class="feed-link-user" data-bind="attr : {href: $data.feedUrl, title: $data.name}, html:$data.postedUser" href="https://twitter.com/RMEducation" title="RM Education"><strong>RM Education</strong> @RMEducation</a>
+                    <span class="time">&nbsp;<span data-bind="text: $data.postedAt">9 Mar, 00:03 pm</span></span>
+                </header>
+                <p data-bind="html: $data.feedText" class="linksUnderlined margin0px">Diversity enables better decision-making when it comes to education policy, practice, and improving learner outcome… <a target="_blank" aria-label="https://t.co/yrF4VRX2Wz" href="https://t.co/yrF4VRX2Wz">https://t.co/yrF4VRX2Wz</a></p>
+                <footer class="paddingTop5px ">
+                    
+                    <div class="float-left linksUnderlined">
+                        <a target="_blank" data-bind="attr : {href: $data.expandUrl, &#39;aria-label&#39;:&#39;Go to tweet &#39; + ($index() + 1) +&#39; from &#39; + $data.name}" class="small linksUnderlined" href="https://twitter.com/RMEducation/status/1501529150720466949" aria-label="Go to tweet 3 from RM Education">Expand</a>
+                    </div>
+                    <div class="float-right tweet-actions">
+                        <a target="_blank" data-bind="attr : {href: $data.replyToUrl, &#39;aria-label&#39;:&#39;Reply to tweet &#39; + ($index() + 1) +&#39; from &#39; + $data.name}" class="padding5px feed-link-textStyle" aria-label="Reply to tweet 3 from RM Education" href="https://twitter.com/intent/tweet?in_reply_to=1501529150720466949">
+                            <span class="glyphicon glyphicon-share-alt icon-flipped" data-bind="popover: {trigger: &#39;hover&#39;, placement: &#39;top&#39;, content: &#39;Reply&#39;, container: &#39;body&#39;}" data-original-title="" title=""></span>
+                        </a>
+                        <a target="_blank" data-bind="attr : {href: $data.rePostUrl, &#39;aria-label&#39;:&#39;Retweet tweet &#39; + ($index() + 1) +&#39; from &#39; + $data.name}" class="padding5px feed-link-textStyle" aria-label="Retweet tweet 3 from RM Education" href="https://twitter.com/intent/retweet?tweet_id=1501529150720466949">
+                            <span class="glyphicon glyphicon-retweet" data-bind="popover: {trigger: &#39;hover&#39;, placement: &#39;top&#39;, content: &#39;Retweet&#39;, container: &#39;body&#39;}" data-original-title="" title=""></span>
+                        </a>
+                        <a target="_blank" data-bind="attr : {href: $data.favouriteUrl, &#39;aria-label&#39;:&#39;Favourite tweet &#39; + ($index() + 1) +&#39; from &#39; + $data.name}" class="padding5px feed-link-textStyle" aria-label="Favourite tweet 3 from RM Education" href="https://twitter.com/intent/favorite?tweet_id=1501529150720466949">
+                            <span class="glyphicon glyphicon-star" data-bind="popover: {trigger: &#39;hover&#39;, placement: &#39;top&#39;, content: &#39;Favourite&#39;, container: &#39;body&#39;}" data-original-title="" title=""></span>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </article>
+</section>
+                        <!-- /ko -->
+                        <!-- ko if: hubspotFeedObservableArray().length>0 --><!-- /ko -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/html" id="twitternewsfeed-template">
+    <article class="list-group-item clearfix">
+        <div class="col-feedItemAvatar">
+            <img class="img-feeadItemAvatar" data-bind="attr: { src: $data.profileImageUrl, alt: 'Tweet' + ($index() + 1) +', ' + $data.name }" alt="profileImg">
+        </div>
+        <div class="col-feedItemBodyOuter">
+            <div class="col-feedItemBodyInner">
+                <header class="marginBottom10px">
+                    <a target="_blank" class="feed-link-user" data-bind="attr : {href: $data.feedUrl, title: $data.name}, html:$data.postedUser"></a>
+                    <span class="time">&nbsp;<span data-bind="text: $data.postedAt"></span></span>
+                </header>
+                <p data-bind="html: $data.feedText" class="linksUnderlined margin0px"></p>
+                <footer class="paddingTop5px ">
+                    
+                    <div class="float-left linksUnderlined">
+                        <a target="_blank" data-bind="attr : {href: $data.expandUrl, 'aria-label':'Go to tweet ' + ($index() + 1) +' from ' + $data.name}" class="small linksUnderlined">Expand</a>
+                    </div>
+                    <div class="float-right tweet-actions">
+                        <a target="_blank" data-bind="attr : {href: $data.replyToUrl, 'aria-label':'Reply to tweet ' + ($index() + 1) +' from ' + $data.name}" class="padding5px feed-link-textStyle" aria-label="Reply">
+                            <span class="glyphicon glyphicon-share-alt icon-flipped" data-bind="popover: {trigger: 'hover', placement: 'top', content: 'Reply', container: 'body'}"></span>
+                        </a>
+                        <a target="_blank" data-bind="attr : {href: $data.rePostUrl, 'aria-label':'Retweet tweet ' + ($index() + 1) +' from ' + $data.name}" class="padding5px feed-link-textStyle" aria-label="Retweet">
+                            <span class="glyphicon glyphicon-retweet" data-bind="popover: {trigger: 'hover', placement: 'top', content: 'Retweet', container: 'body'}"></span>
+                        </a>
+                        <a target="_blank" data-bind="attr : {href: $data.favouriteUrl, 'aria-label':'Favourite tweet ' + ($index() + 1) +' from ' + $data.name}" class="padding5px feed-link-textStyle" aria-label="Favourite">
+                            <span class="glyphicon glyphicon-star" data-bind="popover: {trigger: 'hover', placement: 'top', content: 'Favourite', container: 'body'}"></span>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </article>
+</script>
+
+
+<script type="text/html" id="hubspotnewsfeed-template">
+    <article class="list-group-item clearfix">
+        <div class="marginLeft10px">
+            <header>
+                <a target="_blank" class="feed-link-user" data-bind="attr : {href: $data.feedUrl, title: $data.name}, html: $data.postedUser"></a>
+                <span>&nbsp;<span data-bind="text: $data.postedAt"></span></span>
+            </header>
+            <span data-bind="html: $data.feedText" class="linksUnderlined margin0px"></span>
+            <footer class="paddingTop0px ">
+                
+                <div class="float-left linksUnderlined">
+                    <a target="_blank" data-bind="attr : {href: $data.expandUrl}" class="small linksUnderlined">Expand</a>
+                </div>
+            </footer>
+        </div>
+    </article>
+</script>
+
+
+</div>
+<div data-bind="stopBinding: true">
+    <div id="GlobalFooter" class="fixed-bottom  hidden-xs " tabindex="-1">
+        <div class="paddingLeft40px paddingRight35px paddingTop10px paddingBottom10px clearfix hidden-xs">
+            <div class="float-left">
+                <ul class="list-inline footer-left marginBottom0px">
+                        <li class="list-inline-item"><a data-toggle="modal" href="JavaScript:;" id="ToggleMAMTabbingLink" class="moreAccessibleTabIconInActive" accesskey="7" data-bind="popover: {trigger: &#39;hover focus&#39;, placement: &#39;top&#39;, content: &#39;Enable more accessible tabbing&#39;, container: &#39;body&#39;, template:&#39;&lt;div class=\&#39;popover lp-left-sm-popover\&#39; role=\&#39;tooltip\&#39;&gt;&lt;div class=\&#39;arrow\&#39;&gt;&lt;/div&gt;&lt;div aria-hidden=\&#39;true\&#39; class=\&#39;popover-body\&#39;&gt;&lt;/div&gt;&lt;/div&gt;&#39;}" data-content="Enable more accessible tabbing" data-original-title="" title="">Enable more accessible tabbing</a></li>
+                        <li class="list-inline-item">© 2022 RM Education Ltd</li>
+                </ul>
+            </div>
+            <div class="float-right">
+                <ul class="list-inline marginBottom0px ">
+                                            <li class="list-inline-item"><a href="http://www.rm.com/generic.asp?cref=GP2835943" target="_blank" class="linkUnderlined footerlink-border">Terms &amp; conditions</a></li>
+                                            <li class="list-inline-item"><a href="https://www.rmplc.com/cookies" target="_blank" class="linkUnderlined footerlink-border">RM Unify cookies</a></li>
+                                                                <li class="list-inline-item"><span class="small">Powered by</span> <img id="rmUnifyFooterLogo" src="./Sign In - RM Unify_files/rmUnifyLogo_53x15.png" alt="RM Unify"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="./Sign In - RM Unify_files/commonV3(1)"></script>
+
+<script src="./Sign In - RM Unify_files/CommonScriptsV2"></script>
+    
+    <!-- Help splash modal pop-up start  -->
+
+
+<div class="modal fade" id="HelpModal" tabindex="-1" role="dialog" aria-labelledby="HelpModalTitle" aria-hidden="true">
+    <div class="modal-dialog help-dialog">
+        <div class="modal-content">
+            <div class="modal-header clearfix">
+                <h2 class="modal-title" id="HelpModalTitle">Help</h2>
+                <button id="BtnHelpPopUpClose" type="button" data-dismiss="modal" class="close pop-up-close" aria-label="Close help dialog"><img src="./Sign In - RM Unify_files/popup-close.svg" alt="pop up close"><span class="sr-only">Close dialog</span></button>
+            </div>
+            <div class="modal-body clearfix" role="list">
+                <div class="row">
+
+
+                    <div class="col-md-3" role="listitem">
+                        <a id="LinkRmSupportPanel" href="http://www.rm.com/Support/Portal.asp?title=RM+Unify+Portal" target="_blank" class="helpCard" aria-labelledby="LinkRmSupportPanelContentWrapper">
+                            <div class="helpSplashIconWrapper" id="LinkRmSupportPanelContentWrapper">
+                                <img class="help-popup-image" src="./Sign In - RM Unify_files/helpSplashSupportPortal.png" alt="RM Support Portal Logo">
+                                <h3 class="helpSplashHeading">RM Support Portal</h3>
+                                <span class="rm-displayBlock">Your port of call for quick start guides and technical help for RM Unify.</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3" role="listitem">
+                        <a id="LinkWhatsNext" href="https://ext.prodpad.com/ext/roadmap/1d85bc8be968fcd3703ee9e7cbf64c2874aee801" target="_blank" class="helpCard" aria-labelledby="LinkWhatsNextContentWrapper">
+                            <div class="helpSplashIconWrapper" id="LinkWhatsNextContentWrapper">
+                                <img class="help-popup-image" src="./Sign In - RM Unify_files/helpSplashRoadMap.png" alt="RoadMap Logo">
+                                <h3 class="helpSplashHeading">What's Next</h3>
+                                <span class="displayBlock">Get a snapshot of forthcoming RM Unify features.</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3" role="listitem">
+                        <a id="LinkYoutubeChannel" href="http://www.youtube.com/user/RMEducation" target="_blank" class="helpCard" aria-labelledby="LinkYoutubeChannelContentWrapper">
+                            <div class="helpSplashIconWrapper" id="LinkYoutubeChannelContentWrapper">
+                                <img class="help-popup-image" src="./Sign In - RM Unify_files/helpSplashYouTube.png" alt="YouTube Logo">
+                                <h3 class="helpSplashHeading">YouTube Channel</h3>
+                                <span class="displayBlock">The RM Education YouTube channel, which includes how to's and case studies on RM Unify as well as other more general RM Education videos.</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3" role="listitem">
+                        <a id="LinkTwitterFeed" href="https://twitter.com/RMEducation" target="_blank" class="helpCard" aria-labelledby="LinkTwitterFeedContentWrapper">
+                            <div class="helpSplashIconWrapper" id="LinkTwitterFeedContentWrapper">
+                                <img class="help-popup-image" src="./Sign In - RM Unify_files/helpSplashTwitter.png" alt="Twitter Logo">
+                                <h3 class="helpSplashHeading">Twitter Feed</h3>
+                                    <span class="displayBlock">The RM Education Twitter feed.</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3" role="listitem">
+                        <a id="LinkBlog" href="https://rm.com/blog/categories/rm-unify" target="_blank" class="helpCard" aria-labelledby="LinkBlogContentWrapper">
+                            <div class="helpSplashIconWrapper" id="LinkBlogContentWrapper">
+                                <img class="help-popup-image" src="./Sign In - RM Unify_files/helpSplashBlog.png" alt="Blog Logo">
+                                <h3 class="helpSplashHeading">Blog</h3>
+                                <span class="displayBlock">The latest news from the RM Unify team - new features, apps and case studies.</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3" role="listitem">
+                        <a id="LinkEdugeek" href="http://edugeek.net/forums/cloud-services" target="_blank" class="helpCard" aria-labelledby="LinkEdugeekContentWrapper">
+                            <div class="helpSplashIconWrapper" id="LinkEdugeekContentWrapper">
+                                <img class="help-popup-image" src="./Sign In - RM Unify_files/helpSplashEdugeek.png" alt="Edugeek Logo">
+                                <h3 class="helpSplashHeading">Edugeek</h3>
+                                <span class="displayBlock">Forum for technical discussion on cloud IAM (Identity and Access Management) and RM Unify.</span>
+                            </div>
+                        </a>
+                    </div>
+
+                                            <div class="col-md-3" role="listitem">
+                            <a id="LinkIdeas" href="https://portal.prodpad.com/46a87fc2-6598-11e8-934e-0288f735e5b9" target="_blank" class="helpCard" aria-labelledby="LinkIdeasContentWrapper">
+                                <div class="helpSplashIconWrapper" id="LinkIdeasContentWrapper">
+                                    <img class="help-popup-image" src="./Sign In - RM Unify_files/helpSplashIdea.png" alt="Ideas Logo">
+                                    <h3 class="helpSplashHeading">Ideas</h3>
+                                    <span class="displayBlock">Tell us&nbsp;your ideas for&nbsp;new RM Unify features and vote for other suggestions that you would like to see added to the RM Unify roadmap.</span>
+                                </div>
+                            </a>
+                        </div>
+
+                </div>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- Help splash modal pop-up end  -->
+<!-- overlay pop-up start -->
+<div data-bind="stopBinding: true">
+    <!-- 'stopBinding' binding stops the view model applied to a higher element in DOM from being applied to the descendents of this Div -->
+    <div id="SharedModal">
+        <div id="SharedModalInnerContainer" data-bind="modal:modalContentUrl() !=&#39;&#39;, modalSettings: {fullScreen: modalShowFullScreen() != undefined ? modalShowFullScreen() : true, url : modalContentUrl()}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modelTitle" aria-hidden="true">
+            <div class="modal-dialog modal-xl" aria-live="polite" role="region">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <h2 id="modelTitle" class="modal-title" aria-hidden="true">
+                            <!-- ko if: selectedModalViewTitle() == '' -->
+                            <span data-bind="text: modalTitle() != &#39;&#39; ? modalTitle() : &#39;Working...&#39;">Working...</span>
+                            <!-- /ko -->
+                            <!-- ko if: selectedModalViewTitle() != '' --><!-- /ko -->
+                        </h2>
+                        <button data-bind="visible: modalShowCloseButton() != undefined ? modalShowCloseButton() : true, attr:{&#39;aria-hidden&#39;: modalShowCloseButton() != undefined ? !modalShowCloseButton() : false}, click: function() { selectedModalViewTitle(&#39;&#39;);modalContentUrl(&#39;&#39;); }" type="button" class="close glyphiconpop-up-close" aria-label="Close dialog"><img src="./Sign In - RM Unify_files/popup-close.svg" alt="pop up close" aria-hidden="true"><span class="sr-only">Close dialog</span></button>
+                    </div>
+                    <div data-bind="css:{&#39;modal-minheight&#39; : modalSetMinHeight()}" class="modal-body clearfix modal-minheight">
+                        <div data-bind="stopBinding: true">
+                            <!-- 'stopBinding' binding stops the shared modal view model being applied to the injected partial views's view model -->
+                            <div class="modalLoadingIndicator" style="display:none"></div>
+                            <div class="modalContainer" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <!-- overlay pop-up end  -->
+        <!-- alert modal pop-up start -->
+        <div data-bind="modal: alertTitle != undefined &amp;&amp; (alertTitle() !=&#39;&#39; &amp;&amp; alertBody() != &#39;&#39;)" class="modal fade" id="alertModal" tabindex="-1" role="dialog" aria-labelledby="alertModal" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="alert" aria-describedby="modelcontent">
+                <div id="modelcontent" class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" data-bind="text : alertTitle() != &#39;&#39; ? alertTitle() : &#39;Working...&#39; ">Working...</h2>
+                        <button data-bind="click: function() { alertCallback()();alertTitle(&#39;&#39;); }" type="button" class="close pop-up-close" aria-label="Close dialog"><img src="./Sign In - RM Unify_files/popup-close.svg" alt="pop up close"><span class="sr-only">Close dialog</span></button>
+                    </div>
+                    <div class="modal-body" data-bind="html : alertBody()"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-bind="click: function() { alertCallback()();alertTitle(&#39;&#39;); }">Close</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    </div>
+</div>
+
+
+    <script type="text/javascript">
+        $.ajaxSetup({
+            headers: { "RequestVerificationToken": "XgspawGQMsvivJGeWaWqbwvuIBUTFWsMySkuRqutMAJ1ja9cc6QM-KeR34Qbe-Q7uoTh-tMNpButfXzIwnWts9QCRFs1:p5ahWe8rUAEhqrpKzSBHAj1BaoQPB-LkYWJgsXo09kpfaUtpUIuF5FZmzTJoeY6GhUUewdC4bV1fwTqa0avi4_Bse6s1" }
+        });
+
+        //Attach access key to modal popup when the modal is shown
+        $(document).on('show.bs.modal', '.modal', function () {
+            $(this).find('.close').attr("accesskey", "5");
+        });
+
+        //Removing the attached accesskey when the modal is hidden
+        $(document).on('hidden.bs.modal', '.modal', function () {
+            $(this).find(".close").removeAttr("accesskey");
+        });
+
+
+    </script>
+
+    
+    <script type="text/javascript">
+        var checkSessionExpired = false;
+
+    $(document).ready(function () {
+
+        $.fn.viewsShared_GlobalNavOneColLayoutBreadcrumbtitle({ containerId: "PageTitleContainer" });
+        $.fn.viewsShared_GlobalNavOneColLayoutSharedModal({ containerId: "SharedModal" });
+        $.viewsSharedGlobalNavOneColLayout({
+            toggleMAMTabbingLink: $("#ToggleMAMTabbingLink"),
+        });
+
+        $('#EstabLogo').tooltip();
+
+        // Global navigation - Notification
+        if (false) {
+            var globalNavigationViewModel = new globalNavigation.ViewModel({
+
+            ////Script Details goes here
+            isNotificationDeliveryEnabled:false,
+            userId: "",
+            errorMessages: "Sorry, an error occurred while processing your request. If this problem persists, please contact your establishment's RM Unify administrator.",
+            establishmentLogoImgUrl: "",
+            launchPadEstablihsmentName: "",
+        });
+
+        globalNavigationViewModel.init();
+            ko.applyBindings(globalNavigationViewModel, document.getElementById('GlobalToolbarContainer'));
+        }
+
+       // Global Footer
+        var globalFooterViewModel = new globalFooter.ViewModel({
+
+                ////Script Details goes here,
+            establishmentLogoImgUrl: "",
+            launchPadEstablihsmentName: "",
+        });
+
+        globalFooterViewModel.init();
+        ko.applyBindings(globalFooterViewModel, document.getElementById('GlobalFooter'));
+    });
+
+    checkSessionExpired = false;
+    function redirectToRootEstablishment() {
+        ///<summary>Redirects back to the root establishment's manage child establishments page.</summary>
+        window.location.href = '';
+    }
+    </script>
+    
+    <script src="./Sign In - RM Unify_files/signInPageScriptPaths"></script>
+
+    <script type="text/javascript">
+        var activeUserTextBox = null;
+        var previousActiveTextBox = null;
+        $(document).ready(function () {
+            $.viewsAccountPublicSignIn(
+                 {
+                     signInErrorMessage: "",
+                     signInPasswordError: 'The Password field is required.',
+                     signInUsernameError: 'The Username field is required.',
+                     signInUsernameCookieName: 'UsernameRememberMe',
+                     signInIdentityProviderCookieName: 'IdentityProvider',
+                     signInPasswordController1: "#passwordTxt",
+                     signInPasswordController2: "#password2Txt",
+                     signInLoginForm: "#LoginForm",
+                     signInLoginButton: "#Submit",
+                     signInUserNameValue : '',
+                     signInUserLockedMessage: ''
+                 });
+
+            // Twitter feed View Model
+            $.viewsAccountPublicSignInNewsFeed(
+               {
+                   twitterBaseUri : 'https://twitter.com/',
+                   urlpattern: /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig,
+                   maxNoResponses: 3,
+                   platformBrandfeedUserNameScope : '1',
+                   signInNewsFeedScopeType : '1',
+                   availableFeedTypes : [0,1,2]
+               });
+
+            $('[data-toggle="tooltip"]').tooltip();
+
+        
+        });
+    </script>
+
+
+       
+
+
+</body></html>
